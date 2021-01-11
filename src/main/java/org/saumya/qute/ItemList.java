@@ -29,6 +29,7 @@ public class ItemList {
         list.add(new Item("Mango", new BigDecimal(88)));
         list.add(new Item("Dairy Milk", new BigDecimal(770)));
         list.add(new Item("Grapes", new BigDecimal(76)));
+        list.add(new Item("Orange", new BigDecimal("179")));
         return items.data("items", list);
     }
 
